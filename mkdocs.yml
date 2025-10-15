@@ -1,0 +1,15 @@
+site_name: ASL Book
+site_description: "An intelligent textbook on American Sign Language"
+site_author: 'Curtis Olufson'
+repo_name: 'GitHub Repo'
+site_url: 'https://Olufsonc-hub.github.io/asl-book/'
+repo_url: 'https://github.com/Olufsonc-hub/asl-book'
+edit_uri: 'blob/master/docs'
+
+nav:
+  - Home: index.md
+  - About ths Site: about.md
+  
+theme:
+  name: material
+   
