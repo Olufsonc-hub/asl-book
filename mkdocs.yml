@@ -9,7 +9,7 @@ edit_uri: 'blob/master/docs'
 nav:
   - Home: index.md
   - About ths Site: about.md
-  
+  - Course Description: course-description.md
 theme:
   name: material
    
