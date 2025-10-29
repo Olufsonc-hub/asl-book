@@ -13,9 +13,6 @@ Students in grades 4–8 who are curious about language, communication, and visu
 * No prior ASL experience required.
 * Students should be comfortable participating in small group games and interactive activities.
 * A willingness to use facial expressions and body language as part of communication.
-
----
-
 ## **Learning Objectives (Based on Bloom’s 2005 Taxonomy)**
 
 ### **Remember (Recall facts and basic concepts)**
@@ -64,9 +61,6 @@ Students will be able to:
 * Design and perform short ASL skits combining learned vocabulary.
 * Invent new ways to communicate emotions or ideas through sign.
 * Demonstrate expressive storytelling using signs, gestures, and facial expressions.
-
----
-
 ## **Concepts Covered**
 
 **Foundational Concepts:** ASL alphabet and fingerspelling, greetings, conversational basics, Deaf culture awareness.
@@ -78,9 +72,6 @@ Students will be able to:
 * Advanced ASL grammar or sentence structure.
 * Formal assessment or graded performance.
 * Interpretation or translation between ASL and English.
-
----
-
 ## **Sample Class Activities (By Week)**
 
 * **Week 1:** Silent Name Game & Fingerspelling Challenge
@@ -89,9 +80,6 @@ Students will be able to:
 * **Week 4:** ASL Café – ordering and signing favorite foods
 * **Week 5:** Animal Charades and storytelling
 * **Week 6:** Mini Showcase – perform a short ASL skit using learned signs
-
----
-
 ## **Optional Projects / Culminating Activities**
 
 **Project Name:** “My ASL Story”
@@ -103,6 +91,3 @@ Students will be able to:
 **Description:** Students teach a friend or family member 5–10 ASL signs they’ve learned.
 **Skills Demonstrated:** Recall, explanation, and expressive use of ASL.
 **Deliverable:** Informal reflection or group share.
-
-
-
