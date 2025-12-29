@@ -1,0 +1,10 @@
+{
+  "title": "Introduction to American Sign Language (ASL)",
+  "description": "A 6-week introductory ASL elective for students in grades 4-8, exploring American Sign Language through games, movement, and creative activities with emphasis on visual learning, communication, and self-expression.",
+  "creator": "Curtis Olufson",
+  "date": "2025-12-29",
+  "version": "1.0",
+  "format": "Learning Graph JSON v1.0",
+  "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+  "license": "MIT"
+}

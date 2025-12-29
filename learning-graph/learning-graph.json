@@ -1,0 +1,2382 @@
+{
+  "metadata": {
+    "title": "Introduction to American Sign Language (ASL)",
+    "description": "A 6-week introductory ASL elective for students in grades 4-8, exploring American Sign Language through games, movement, and creative activities with emphasis on visual learning, communication, and self-expression.",
+    "creator": "Curtis Olufson",
+    "date": "2025-12-29",
+    "version": "1.0",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "MIT"
+  },
+  "groups": {
+    "PEOP": {
+      "classifierName": "People & Family",
+      "color": "PowderBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "GRAM": {
+      "classifierName": "Grammar & Expression",
+      "color": "Thistle",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CULT": {
+      "classifierName": "Culture & Communication",
+      "color": "PaleTurquoise",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CONV": {
+      "classifierName": "Conversation Basics",
+      "color": "LightYellow",
+      "font": {
+        "color": "black"
+      }
+    },
+    "EMOT": {
+      "classifierName": "Emotions & Feelings",
+      "color": "LightPink",
+      "font": {
+        "color": "black"
+      }
+    },
+    "FOUND": {
+      "classifierName": "Foundation Concepts",
+      "color": "LightCoral",
+      "font": {
+        "color": "black"
+      }
+    },
+    "PRON": {
+      "classifierName": "Pronouns & Reference",
+      "color": "PaleGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "VERB": {
+      "classifierName": "Action Verbs",
+      "color": "LightSteelBlue",
+      "font": {
+        "color": "black"
+      }
+    },
+    "BASIC": {
+      "classifierName": "Alphabet & Numbers",
+      "color": "PeachPuff",
+      "font": {
+        "color": "black"
+      }
+    },
+    "FOOD": {
+      "classifierName": "Food & Eating",
+      "color": "Plum",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DESC": {
+      "classifierName": "Descriptive Words",
+      "color": "Lavender",
+      "font": {
+        "color": "black"
+      }
+    },
+    "ANIM": {
+      "classifierName": "Animals & Nature",
+      "color": "Aquamarine",
+      "font": {
+        "color": "black"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "American Sign Language",
+      "group": "FOUND"
+    },
+    {
+      "id": 2,
+      "label": "Deaf Community",
+      "group": "FOUND"
+    },
+    {
+      "id": 3,
+      "label": "Deaf Culture",
+      "group": "FOUND"
+    },
+    {
+      "id": 4,
+      "label": "Visual Communication",
+      "group": "FOUND"
+    },
+    {
+      "id": 5,
+      "label": "Manual Communication",
+      "group": "FOUND"
+    },
+    {
+      "id": 6,
+      "label": "Handshape",
+      "group": "FOUND"
+    },
+    {
+      "id": 7,
+      "label": "Palm Orientation",
+      "group": "FOUND"
+    },
+    {
+      "id": 8,
+      "label": "Movement",
+      "group": "FOUND"
+    },
+    {
+      "id": 9,
+      "label": "Location",
+      "group": "FOUND"
+    },
+    {
+      "id": 10,
+      "label": "Facial Expression",
+      "group": "FOUND"
+    },
+    {
+      "id": 11,
+      "label": "Fingerspelling",
+      "group": "BASIC"
+    },
+    {
+      "id": 12,
+      "label": "ASL Alphabet",
+      "group": "BASIC"
+    },
+    {
+      "id": 13,
+      "label": "Letter A Through E",
+      "group": "BASIC"
+    },
+    {
+      "id": 14,
+      "label": "Letter F Through J",
+      "group": "BASIC"
+    },
+    {
+      "id": 15,
+      "label": "Letter K Through O",
+      "group": "BASIC"
+    },
+    {
+      "id": 16,
+      "label": "Letter P Through T",
+      "group": "BASIC"
+    },
+    {
+      "id": 17,
+      "label": "Letter U Through Z",
+      "group": "BASIC"
+    },
+    {
+      "id": 18,
+      "label": "Double Letters",
+      "group": "BASIC"
+    },
+    {
+      "id": 19,
+      "label": "Fingerspelling Speed",
+      "group": "BASIC"
+    },
+    {
+      "id": 20,
+      "label": "Clarity in Fingerspelling",
+      "group": "BASIC"
+    },
+    {
+      "id": 21,
+      "label": "Number 1",
+      "group": "BASIC"
+    },
+    {
+      "id": 22,
+      "label": "Number 2",
+      "group": "BASIC"
+    },
+    {
+      "id": 23,
+      "label": "Number 3",
+      "group": "BASIC"
+    },
+    {
+      "id": 24,
+      "label": "Number 4",
+      "group": "BASIC"
+    },
+    {
+      "id": 25,
+      "label": "Number 5",
+      "group": "BASIC"
+    },
+    {
+      "id": 26,
+      "label": "Numbers 6-10",
+      "group": "BASIC"
+    },
+    {
+      "id": 27,
+      "label": "Counting to 20",
+      "group": "BASIC"
+    },
+    {
+      "id": 28,
+      "label": "Counting to 100",
+      "group": "BASIC"
+    },
+    {
+      "id": 29,
+      "label": "Age Signs",
+      "group": "BASIC"
+    },
+    {
+      "id": 30,
+      "label": "Time Expressions",
+      "group": "BASIC"
+    },
+    {
+      "id": 31,
+      "label": "Hello",
+      "group": "CONV"
+    },
+    {
+      "id": 32,
+      "label": "Goodbye",
+      "group": "CONV"
+    },
+    {
+      "id": 33,
+      "label": "Good Morning",
+      "group": "CONV"
+    },
+    {
+      "id": 34,
+      "label": "Please",
+      "group": "CONV"
+    },
+    {
+      "id": 35,
+      "label": "Thank You",
+      "group": "CONV"
+    },
+    {
+      "id": 36,
+      "label": "You're Welcome",
+      "group": "CONV"
+    },
+    {
+      "id": 37,
+      "label": "Excuse Me",
+      "group": "CONV"
+    },
+    {
+      "id": 38,
+      "label": "Sorry",
+      "group": "CONV"
+    },
+    {
+      "id": 39,
+      "label": "Yes",
+      "group": "CONV"
+    },
+    {
+      "id": 40,
+      "label": "No",
+      "group": "CONV"
+    },
+    {
+      "id": 41,
+      "label": "Maybe",
+      "group": "CONV"
+    },
+    {
+      "id": 42,
+      "label": "I Don't Know",
+      "group": "CONV"
+    },
+    {
+      "id": 43,
+      "label": "Help",
+      "group": "CONV"
+    },
+    {
+      "id": 44,
+      "label": "Finished",
+      "group": "CONV"
+    },
+    {
+      "id": 45,
+      "label": "Name",
+      "group": "CONV"
+    },
+    {
+      "id": 46,
+      "label": "What",
+      "group": "CONV"
+    },
+    {
+      "id": 47,
+      "label": "Who",
+      "group": "CONV"
+    },
+    {
+      "id": 48,
+      "label": "Where",
+      "group": "CONV"
+    },
+    {
+      "id": 49,
+      "label": "When",
+      "group": "CONV"
+    },
+    {
+      "id": 50,
+      "label": "Why",
+      "group": "CONV"
+    },
+    {
+      "id": 51,
+      "label": "I",
+      "group": "PRON"
+    },
+    {
+      "id": 52,
+      "label": "You",
+      "group": "PRON"
+    },
+    {
+      "id": 53,
+      "label": "He/She",
+      "group": "PRON"
+    },
+    {
+      "id": 54,
+      "label": "We",
+      "group": "PRON"
+    },
+    {
+      "id": 55,
+      "label": "They",
+      "group": "PRON"
+    },
+    {
+      "id": 56,
+      "label": "This",
+      "group": "PRON"
+    },
+    {
+      "id": 57,
+      "label": "That",
+      "group": "PRON"
+    },
+    {
+      "id": 58,
+      "label": "Here",
+      "group": "PRON"
+    },
+    {
+      "id": 59,
+      "label": "There",
+      "group": "PRON"
+    },
+    {
+      "id": 60,
+      "label": "Signing Space",
+      "group": "PRON"
+    },
+    {
+      "id": 61,
+      "label": "Directionality",
+      "group": "PRON"
+    },
+    {
+      "id": 62,
+      "label": "Indexing",
+      "group": "PRON"
+    },
+    {
+      "id": 63,
+      "label": "Topicalization",
+      "group": "PRON"
+    },
+    {
+      "id": 64,
+      "label": "Negation",
+      "group": "PRON"
+    },
+    {
+      "id": 65,
+      "label": "Question Formation",
+      "group": "PRON"
+    },
+    {
+      "id": 66,
+      "label": "Happy",
+      "group": "EMOT"
+    },
+    {
+      "id": 67,
+      "label": "Sad",
+      "group": "EMOT"
+    },
+    {
+      "id": 68,
+      "label": "Angry",
+      "group": "EMOT"
+    },
+    {
+      "id": 69,
+      "label": "Excited",
+      "group": "EMOT"
+    },
+    {
+      "id": 70,
+      "label": "Nervous",
+      "group": "EMOT"
+    },
+    {
+      "id": 71,
+      "label": "Scared",
+      "group": "EMOT"
+    },
+    {
+      "id": 72,
+      "label": "Worried",
+      "group": "EMOT"
+    },
+    {
+      "id": 73,
+      "label": "Calm",
+      "group": "EMOT"
+    },
+    {
+      "id": 74,
+      "label": "Surprised",
+      "group": "EMOT"
+    },
+    {
+      "id": 75,
+      "label": "Confused",
+      "group": "EMOT"
+    },
+    {
+      "id": 76,
+      "label": "Tired",
+      "group": "EMOT"
+    },
+    {
+      "id": 77,
+      "label": "Proud",
+      "group": "EMOT"
+    },
+    {
+      "id": 78,
+      "label": "Embarrassed",
+      "group": "EMOT"
+    },
+    {
+      "id": 79,
+      "label": "Shy",
+      "group": "EMOT"
+    },
+    {
+      "id": 80,
+      "label": "Brave",
+      "group": "EMOT"
+    },
+    {
+      "id": 81,
+      "label": "Love",
+      "group": "EMOT"
+    },
+    {
+      "id": 82,
+      "label": "Like",
+      "group": "EMOT"
+    },
+    {
+      "id": 83,
+      "label": "Dislike",
+      "group": "EMOT"
+    },
+    {
+      "id": 84,
+      "label": "Feeling Words",
+      "group": "EMOT"
+    },
+    {
+      "id": 85,
+      "label": "Emotion Intensity",
+      "group": "EMOT"
+    },
+    {
+      "id": 86,
+      "label": "Family",
+      "group": "PEOP"
+    },
+    {
+      "id": 87,
+      "label": "Mother",
+      "group": "PEOP"
+    },
+    {
+      "id": 88,
+      "label": "Father",
+      "group": "PEOP"
+    },
+    {
+      "id": 89,
+      "label": "Sister",
+      "group": "PEOP"
+    },
+    {
+      "id": 90,
+      "label": "Brother",
+      "group": "PEOP"
+    },
+    {
+      "id": 91,
+      "label": "Grandmother",
+      "group": "PEOP"
+    },
+    {
+      "id": 92,
+      "label": "Grandfather",
+      "group": "PEOP"
+    },
+    {
+      "id": 93,
+      "label": "Aunt",
+      "group": "PEOP"
+    },
+    {
+      "id": 94,
+      "label": "Uncle",
+      "group": "PEOP"
+    },
+    {
+      "id": 95,
+      "label": "Baby",
+      "group": "PEOP"
+    },
+    {
+      "id": 96,
+      "label": "Friend",
+      "group": "PEOP"
+    },
+    {
+      "id": 97,
+      "label": "Teacher",
+      "group": "PEOP"
+    },
+    {
+      "id": 98,
+      "label": "Student",
+      "group": "PEOP"
+    },
+    {
+      "id": 99,
+      "label": "Boy",
+      "group": "PEOP"
+    },
+    {
+      "id": 100,
+      "label": "Girl",
+      "group": "PEOP"
+    },
+    {
+      "id": 101,
+      "label": "Food",
+      "group": "FOOD"
+    },
+    {
+      "id": 102,
+      "label": "Eat",
+      "group": "FOOD"
+    },
+    {
+      "id": 103,
+      "label": "Drink",
+      "group": "FOOD"
+    },
+    {
+      "id": 104,
+      "label": "Hungry",
+      "group": "FOOD"
+    },
+    {
+      "id": 105,
+      "label": "Thirsty",
+      "group": "FOOD"
+    },
+    {
+      "id": 106,
+      "label": "Breakfast",
+      "group": "FOOD"
+    },
+    {
+      "id": 107,
+      "label": "Lunch",
+      "group": "FOOD"
+    },
+    {
+      "id": 108,
+      "label": "Dinner",
+      "group": "FOOD"
+    },
+    {
+      "id": 109,
+      "label": "Apple",
+      "group": "FOOD"
+    },
+    {
+      "id": 110,
+      "label": "Banana",
+      "group": "FOOD"
+    },
+    {
+      "id": 111,
+      "label": "Pizza",
+      "group": "FOOD"
+    },
+    {
+      "id": 112,
+      "label": "Sandwich",
+      "group": "FOOD"
+    },
+    {
+      "id": 113,
+      "label": "Milk",
+      "group": "FOOD"
+    },
+    {
+      "id": 114,
+      "label": "Water",
+      "group": "FOOD"
+    },
+    {
+      "id": 115,
+      "label": "Cookie",
+      "group": "FOOD"
+    },
+    {
+      "id": 116,
+      "label": "Ice Cream",
+      "group": "FOOD"
+    },
+    {
+      "id": 117,
+      "label": "Favorite",
+      "group": "FOOD"
+    },
+    {
+      "id": 118,
+      "label": "Like (Preference)",
+      "group": "FOOD"
+    },
+    {
+      "id": 119,
+      "label": "Don't Like",
+      "group": "FOOD"
+    },
+    {
+      "id": 120,
+      "label": "Delicious",
+      "group": "FOOD"
+    },
+    {
+      "id": 121,
+      "label": "Animal",
+      "group": "ANIM"
+    },
+    {
+      "id": 122,
+      "label": "Dog",
+      "group": "ANIM"
+    },
+    {
+      "id": 123,
+      "label": "Cat",
+      "group": "ANIM"
+    },
+    {
+      "id": 124,
+      "label": "Bird",
+      "group": "ANIM"
+    },
+    {
+      "id": 125,
+      "label": "Fish",
+      "group": "ANIM"
+    },
+    {
+      "id": 126,
+      "label": "Horse",
+      "group": "ANIM"
+    },
+    {
+      "id": 127,
+      "label": "Bear",
+      "group": "ANIM"
+    },
+    {
+      "id": 128,
+      "label": "Butterfly",
+      "group": "ANIM"
+    },
+    {
+      "id": 129,
+      "label": "Tree",
+      "group": "ANIM"
+    },
+    {
+      "id": 130,
+      "label": "Flower",
+      "group": "ANIM"
+    },
+    {
+      "id": 131,
+      "label": "Sun",
+      "group": "ANIM"
+    },
+    {
+      "id": 132,
+      "label": "Rain",
+      "group": "ANIM"
+    },
+    {
+      "id": 133,
+      "label": "Color",
+      "group": "DESC"
+    },
+    {
+      "id": 134,
+      "label": "Nature",
+      "group": "ANIM"
+    },
+    {
+      "id": 135,
+      "label": "Environment",
+      "group": "ANIM"
+    },
+    {
+      "id": 136,
+      "label": "Red",
+      "group": "DESC"
+    },
+    {
+      "id": 137,
+      "label": "Blue",
+      "group": "DESC"
+    },
+    {
+      "id": 138,
+      "label": "Yellow",
+      "group": "DESC"
+    },
+    {
+      "id": 139,
+      "label": "Green",
+      "group": "DESC"
+    },
+    {
+      "id": 140,
+      "label": "Big",
+      "group": "DESC"
+    },
+    {
+      "id": 141,
+      "label": "Small",
+      "group": "DESC"
+    },
+    {
+      "id": 142,
+      "label": "Hot",
+      "group": "DESC"
+    },
+    {
+      "id": 143,
+      "label": "Cold",
+      "group": "DESC"
+    },
+    {
+      "id": 144,
+      "label": "Fast",
+      "group": "DESC"
+    },
+    {
+      "id": 145,
+      "label": "Slow",
+      "group": "DESC"
+    },
+    {
+      "id": 146,
+      "label": "New",
+      "group": "DESC"
+    },
+    {
+      "id": 147,
+      "label": "Old",
+      "group": "DESC"
+    },
+    {
+      "id": 148,
+      "label": "Good",
+      "group": "DESC"
+    },
+    {
+      "id": 149,
+      "label": "Bad",
+      "group": "DESC"
+    },
+    {
+      "id": 150,
+      "label": "Beautiful",
+      "group": "DESC"
+    },
+    {
+      "id": 151,
+      "label": "Play",
+      "group": "VERB"
+    },
+    {
+      "id": 152,
+      "label": "Run",
+      "group": "VERB"
+    },
+    {
+      "id": 153,
+      "label": "Jump",
+      "group": "VERB"
+    },
+    {
+      "id": 154,
+      "label": "Walk",
+      "group": "VERB"
+    },
+    {
+      "id": 155,
+      "label": "Sit",
+      "group": "VERB"
+    },
+    {
+      "id": 156,
+      "label": "Stand",
+      "group": "VERB"
+    },
+    {
+      "id": 157,
+      "label": "Sleep",
+      "group": "VERB"
+    },
+    {
+      "id": 158,
+      "label": "Read",
+      "group": "VERB"
+    },
+    {
+      "id": 159,
+      "label": "Write",
+      "group": "VERB"
+    },
+    {
+      "id": 160,
+      "label": "Draw",
+      "group": "VERB"
+    },
+    {
+      "id": 161,
+      "label": "Watch",
+      "group": "VERB"
+    },
+    {
+      "id": 162,
+      "label": "Learn",
+      "group": "VERB"
+    },
+    {
+      "id": 163,
+      "label": "Teach",
+      "group": "VERB"
+    },
+    {
+      "id": 164,
+      "label": "Practice",
+      "group": "VERB"
+    },
+    {
+      "id": 165,
+      "label": "Perform",
+      "group": "VERB"
+    },
+    {
+      "id": 166,
+      "label": "Classifier",
+      "group": "GRAM"
+    },
+    {
+      "id": 167,
+      "label": "Role Shift",
+      "group": "GRAM"
+    },
+    {
+      "id": 168,
+      "label": "Time Marker",
+      "group": "GRAM"
+    },
+    {
+      "id": 169,
+      "label": "Subject-Verb-Object",
+      "group": "GRAM"
+    },
+    {
+      "id": 170,
+      "label": "Depicting Verb",
+      "group": "GRAM"
+    },
+    {
+      "id": 171,
+      "label": "Spatial Reference",
+      "group": "GRAM"
+    },
+    {
+      "id": 172,
+      "label": "Agreement Verb",
+      "group": "GRAM"
+    },
+    {
+      "id": 173,
+      "label": "Rhetorical Question",
+      "group": "GRAM"
+    },
+    {
+      "id": 174,
+      "label": "Conditional Statement",
+      "group": "GRAM"
+    },
+    {
+      "id": 175,
+      "label": "Listing",
+      "group": "GRAM"
+    },
+    {
+      "id": 176,
+      "label": "Non-Manual Signal",
+      "group": "GRAM"
+    },
+    {
+      "id": 177,
+      "label": "Eyebrow Raise",
+      "group": "GRAM"
+    },
+    {
+      "id": 178,
+      "label": "Eyebrow Furrow",
+      "group": "GRAM"
+    },
+    {
+      "id": 179,
+      "label": "Head Nod",
+      "group": "GRAM"
+    },
+    {
+      "id": 180,
+      "label": "Head Shake",
+      "group": "GRAM"
+    },
+    {
+      "id": 181,
+      "label": "Eye Gaze",
+      "group": "GRAM"
+    },
+    {
+      "id": 182,
+      "label": "Mouth Morpheme",
+      "group": "GRAM"
+    },
+    {
+      "id": 183,
+      "label": "Body Lean",
+      "group": "GRAM"
+    },
+    {
+      "id": 184,
+      "label": "Question Face",
+      "group": "GRAM"
+    },
+    {
+      "id": 185,
+      "label": "Statement Face",
+      "group": "GRAM"
+    },
+    {
+      "id": 186,
+      "label": "Deaf Identity",
+      "group": "CULT"
+    },
+    {
+      "id": 187,
+      "label": "Deaf Pride",
+      "group": "CULT"
+    },
+    {
+      "id": 188,
+      "label": "Gallaudet University",
+      "group": "CULT"
+    },
+    {
+      "id": 189,
+      "label": "Sign Language Interpreter",
+      "group": "CULT"
+    },
+    {
+      "id": 190,
+      "label": "Deaf School",
+      "group": "CULT"
+    },
+    {
+      "id": 191,
+      "label": "Visual Alert System",
+      "group": "CULT"
+    },
+    {
+      "id": 192,
+      "label": "Captioning",
+      "group": "CULT"
+    },
+    {
+      "id": 193,
+      "label": "ASL Recognition",
+      "group": "CULT"
+    },
+    {
+      "id": 194,
+      "label": "Deaf Art",
+      "group": "CULT"
+    },
+    {
+      "id": 195,
+      "label": "Regional Sign Variation",
+      "group": "CULT"
+    },
+    {
+      "id": 196,
+      "label": "Eye Contact",
+      "group": "CULT"
+    },
+    {
+      "id": 197,
+      "label": "Getting Attention",
+      "group": "CULT"
+    },
+    {
+      "id": 198,
+      "label": "Signing Clearly",
+      "group": "CULT"
+    },
+    {
+      "id": 199,
+      "label": "Storytelling",
+      "group": "CULT"
+    },
+    {
+      "id": 200,
+      "label": "Self-Expression",
+      "group": "CULT"
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 3
+    },
+    {
+      "from": 1,
+      "to": 4
+    },
+    {
+      "from": 1,
+      "to": 5
+    },
+    {
+      "from": 4,
+      "to": 6
+    },
+    {
+      "from": 5,
+      "to": 6
+    },
+    {
+      "from": 4,
+      "to": 7
+    },
+    {
+      "from": 5,
+      "to": 7
+    },
+    {
+      "from": 4,
+      "to": 8
+    },
+    {
+      "from": 5,
+      "to": 8
+    },
+    {
+      "from": 4,
+      "to": 9
+    },
+    {
+      "from": 5,
+      "to": 9
+    },
+    {
+      "from": 4,
+      "to": 10
+    },
+    {
+      "from": 6,
+      "to": 11
+    },
+    {
+      "from": 7,
+      "to": 11
+    },
+    {
+      "from": 8,
+      "to": 11
+    },
+    {
+      "from": 9,
+      "to": 11
+    },
+    {
+      "from": 11,
+      "to": 12
+    },
+    {
+      "from": 12,
+      "to": 13
+    },
+    {
+      "from": 12,
+      "to": 14
+    },
+    {
+      "from": 12,
+      "to": 15
+    },
+    {
+      "from": 12,
+      "to": 16
+    },
+    {
+      "from": 12,
+      "to": 17
+    },
+    {
+      "from": 12,
+      "to": 18
+    },
+    {
+      "from": 11,
+      "to": 19
+    },
+    {
+      "from": 11,
+      "to": 20
+    },
+    {
+      "from": 19,
+      "to": 20
+    },
+    {
+      "from": 6,
+      "to": 21
+    },
+    {
+      "from": 6,
+      "to": 22
+    },
+    {
+      "from": 6,
+      "to": 23
+    },
+    {
+      "from": 6,
+      "to": 24
+    },
+    {
+      "from": 6,
+      "to": 25
+    },
+    {
+      "from": 21,
+      "to": 26
+    },
+    {
+      "from": 22,
+      "to": 26
+    },
+    {
+      "from": 23,
+      "to": 26
+    },
+    {
+      "from": 24,
+      "to": 26
+    },
+    {
+      "from": 25,
+      "to": 26
+    },
+    {
+      "from": 26,
+      "to": 27
+    },
+    {
+      "from": 27,
+      "to": 28
+    },
+    {
+      "from": 26,
+      "to": 29
+    },
+    {
+      "from": 26,
+      "to": 30
+    },
+    {
+      "from": 6,
+      "to": 31
+    },
+    {
+      "from": 8,
+      "to": 31
+    },
+    {
+      "from": 6,
+      "to": 32
+    },
+    {
+      "from": 8,
+      "to": 32
+    },
+    {
+      "from": 31,
+      "to": 33
+    },
+    {
+      "from": 30,
+      "to": 33
+    },
+    {
+      "from": 6,
+      "to": 34
+    },
+    {
+      "from": 8,
+      "to": 34
+    },
+    {
+      "from": 6,
+      "to": 35
+    },
+    {
+      "from": 8,
+      "to": 35
+    },
+    {
+      "from": 35,
+      "to": 36
+    },
+    {
+      "from": 6,
+      "to": 37
+    },
+    {
+      "from": 8,
+      "to": 37
+    },
+    {
+      "from": 6,
+      "to": 38
+    },
+    {
+      "from": 8,
+      "to": 38
+    },
+    {
+      "from": 10,
+      "to": 38
+    },
+    {
+      "from": 6,
+      "to": 39
+    },
+    {
+      "from": 6,
+      "to": 40
+    },
+    {
+      "from": 39,
+      "to": 41
+    },
+    {
+      "from": 40,
+      "to": 41
+    },
+    {
+      "from": 39,
+      "to": 42
+    },
+    {
+      "from": 40,
+      "to": 42
+    },
+    {
+      "from": 6,
+      "to": 43
+    },
+    {
+      "from": 8,
+      "to": 43
+    },
+    {
+      "from": 6,
+      "to": 44
+    },
+    {
+      "from": 8,
+      "to": 44
+    },
+    {
+      "from": 6,
+      "to": 45
+    },
+    {
+      "from": 8,
+      "to": 45
+    },
+    {
+      "from": 11,
+      "to": 45
+    },
+    {
+      "from": 6,
+      "to": 46
+    },
+    {
+      "from": 6,
+      "to": 47
+    },
+    {
+      "from": 6,
+      "to": 48
+    },
+    {
+      "from": 6,
+      "to": 49
+    },
+    {
+      "from": 6,
+      "to": 50
+    },
+    {
+      "from": 6,
+      "to": 51
+    },
+    {
+      "from": 9,
+      "to": 51
+    },
+    {
+      "from": 6,
+      "to": 52
+    },
+    {
+      "from": 9,
+      "to": 52
+    },
+    {
+      "from": 6,
+      "to": 53
+    },
+    {
+      "from": 9,
+      "to": 53
+    },
+    {
+      "from": 51,
+      "to": 54
+    },
+    {
+      "from": 52,
+      "to": 54
+    },
+    {
+      "from": 51,
+      "to": 55
+    },
+    {
+      "from": 52,
+      "to": 55
+    },
+    {
+      "from": 6,
+      "to": 56
+    },
+    {
+      "from": 9,
+      "to": 56
+    },
+    {
+      "from": 6,
+      "to": 57
+    },
+    {
+      "from": 9,
+      "to": 57
+    },
+    {
+      "from": 6,
+      "to": 58
+    },
+    {
+      "from": 9,
+      "to": 58
+    },
+    {
+      "from": 6,
+      "to": 59
+    },
+    {
+      "from": 9,
+      "to": 59
+    },
+    {
+      "from": 9,
+      "to": 60
+    },
+    {
+      "from": 51,
+      "to": 60
+    },
+    {
+      "from": 52,
+      "to": 60
+    },
+    {
+      "from": 60,
+      "to": 61
+    },
+    {
+      "from": 60,
+      "to": 62
+    },
+    {
+      "from": 51,
+      "to": 62
+    },
+    {
+      "from": 52,
+      "to": 62
+    },
+    {
+      "from": 60,
+      "to": 63
+    },
+    {
+      "from": 40,
+      "to": 64
+    },
+    {
+      "from": 60,
+      "to": 64
+    },
+    {
+      "from": 46,
+      "to": 65
+    },
+    {
+      "from": 47,
+      "to": 65
+    },
+    {
+      "from": 48,
+      "to": 65
+    },
+    {
+      "from": 49,
+      "to": 65
+    },
+    {
+      "from": 50,
+      "to": 65
+    },
+    {
+      "from": 60,
+      "to": 65
+    },
+    {
+      "from": 10,
+      "to": 66
+    },
+    {
+      "from": 10,
+      "to": 67
+    },
+    {
+      "from": 10,
+      "to": 68
+    },
+    {
+      "from": 10,
+      "to": 69
+    },
+    {
+      "from": 10,
+      "to": 70
+    },
+    {
+      "from": 10,
+      "to": 71
+    },
+    {
+      "from": 10,
+      "to": 72
+    },
+    {
+      "from": 10,
+      "to": 73
+    },
+    {
+      "from": 10,
+      "to": 74
+    },
+    {
+      "from": 10,
+      "to": 75
+    },
+    {
+      "from": 10,
+      "to": 76
+    },
+    {
+      "from": 10,
+      "to": 77
+    },
+    {
+      "from": 10,
+      "to": 78
+    },
+    {
+      "from": 10,
+      "to": 79
+    },
+    {
+      "from": 10,
+      "to": 80
+    },
+    {
+      "from": 10,
+      "to": 81
+    },
+    {
+      "from": 6,
+      "to": 81
+    },
+    {
+      "from": 10,
+      "to": 82
+    },
+    {
+      "from": 6,
+      "to": 82
+    },
+    {
+      "from": 10,
+      "to": 83
+    },
+    {
+      "from": 6,
+      "to": 83
+    },
+    {
+      "from": 66,
+      "to": 84
+    },
+    {
+      "from": 67,
+      "to": 84
+    },
+    {
+      "from": 68,
+      "to": 84
+    },
+    {
+      "from": 10,
+      "to": 85
+    },
+    {
+      "from": 84,
+      "to": 85
+    },
+    {
+      "from": 6,
+      "to": 86
+    },
+    {
+      "from": 86,
+      "to": 87
+    },
+    {
+      "from": 86,
+      "to": 88
+    },
+    {
+      "from": 86,
+      "to": 89
+    },
+    {
+      "from": 86,
+      "to": 90
+    },
+    {
+      "from": 86,
+      "to": 91
+    },
+    {
+      "from": 87,
+      "to": 91
+    },
+    {
+      "from": 88,
+      "to": 91
+    },
+    {
+      "from": 86,
+      "to": 92
+    },
+    {
+      "from": 87,
+      "to": 92
+    },
+    {
+      "from": 88,
+      "to": 92
+    },
+    {
+      "from": 86,
+      "to": 93
+    },
+    {
+      "from": 86,
+      "to": 94
+    },
+    {
+      "from": 86,
+      "to": 95
+    },
+    {
+      "from": 6,
+      "to": 96
+    },
+    {
+      "from": 6,
+      "to": 97
+    },
+    {
+      "from": 6,
+      "to": 98
+    },
+    {
+      "from": 6,
+      "to": 99
+    },
+    {
+      "from": 6,
+      "to": 100
+    },
+    {
+      "from": 6,
+      "to": 101
+    },
+    {
+      "from": 6,
+      "to": 102
+    },
+    {
+      "from": 8,
+      "to": 102
+    },
+    {
+      "from": 6,
+      "to": 103
+    },
+    {
+      "from": 8,
+      "to": 103
+    },
+    {
+      "from": 10,
+      "to": 104
+    },
+    {
+      "from": 101,
+      "to": 104
+    },
+    {
+      "from": 10,
+      "to": 105
+    },
+    {
+      "from": 101,
+      "to": 105
+    },
+    {
+      "from": 101,
+      "to": 106
+    },
+    {
+      "from": 30,
+      "to": 106
+    },
+    {
+      "from": 101,
+      "to": 107
+    },
+    {
+      "from": 30,
+      "to": 107
+    },
+    {
+      "from": 101,
+      "to": 108
+    },
+    {
+      "from": 30,
+      "to": 108
+    },
+    {
+      "from": 101,
+      "to": 109
+    },
+    {
+      "from": 101,
+      "to": 110
+    },
+    {
+      "from": 101,
+      "to": 111
+    },
+    {
+      "from": 101,
+      "to": 112
+    },
+    {
+      "from": 101,
+      "to": 113
+    },
+    {
+      "from": 101,
+      "to": 114
+    },
+    {
+      "from": 101,
+      "to": 115
+    },
+    {
+      "from": 101,
+      "to": 116
+    },
+    {
+      "from": 82,
+      "to": 117
+    },
+    {
+      "from": 82,
+      "to": 118
+    },
+    {
+      "from": 83,
+      "to": 119
+    },
+    {
+      "from": 101,
+      "to": 120
+    },
+    {
+      "from": 10,
+      "to": 120
+    },
+    {
+      "from": 6,
+      "to": 121
+    },
+    {
+      "from": 121,
+      "to": 122
+    },
+    {
+      "from": 121,
+      "to": 123
+    },
+    {
+      "from": 121,
+      "to": 124
+    },
+    {
+      "from": 121,
+      "to": 125
+    },
+    {
+      "from": 121,
+      "to": 126
+    },
+    {
+      "from": 121,
+      "to": 127
+    },
+    {
+      "from": 121,
+      "to": 128
+    },
+    {
+      "from": 6,
+      "to": 129
+    },
+    {
+      "from": 6,
+      "to": 130
+    },
+    {
+      "from": 6,
+      "to": 131
+    },
+    {
+      "from": 6,
+      "to": 132
+    },
+    {
+      "from": 6,
+      "to": 133
+    },
+    {
+      "from": 129,
+      "to": 134
+    },
+    {
+      "from": 130,
+      "to": 134
+    },
+    {
+      "from": 131,
+      "to": 134
+    },
+    {
+      "from": 132,
+      "to": 134
+    },
+    {
+      "from": 134,
+      "to": 135
+    },
+    {
+      "from": 133,
+      "to": 136
+    },
+    {
+      "from": 133,
+      "to": 137
+    },
+    {
+      "from": 133,
+      "to": 138
+    },
+    {
+      "from": 133,
+      "to": 139
+    },
+    {
+      "from": 6,
+      "to": 140
+    },
+    {
+      "from": 10,
+      "to": 140
+    },
+    {
+      "from": 6,
+      "to": 141
+    },
+    {
+      "from": 10,
+      "to": 141
+    },
+    {
+      "from": 6,
+      "to": 142
+    },
+    {
+      "from": 10,
+      "to": 142
+    },
+    {
+      "from": 6,
+      "to": 143
+    },
+    {
+      "from": 10,
+      "to": 143
+    },
+    {
+      "from": 6,
+      "to": 144
+    },
+    {
+      "from": 8,
+      "to": 144
+    },
+    {
+      "from": 6,
+      "to": 145
+    },
+    {
+      "from": 8,
+      "to": 145
+    },
+    {
+      "from": 6,
+      "to": 146
+    },
+    {
+      "from": 6,
+      "to": 147
+    },
+    {
+      "from": 6,
+      "to": 148
+    },
+    {
+      "from": 10,
+      "to": 148
+    },
+    {
+      "from": 6,
+      "to": 149
+    },
+    {
+      "from": 10,
+      "to": 149
+    },
+    {
+      "from": 6,
+      "to": 150
+    },
+    {
+      "from": 10,
+      "to": 150
+    },
+    {
+      "from": 6,
+      "to": 151
+    },
+    {
+      "from": 8,
+      "to": 151
+    },
+    {
+      "from": 6,
+      "to": 152
+    },
+    {
+      "from": 8,
+      "to": 152
+    },
+    {
+      "from": 6,
+      "to": 153
+    },
+    {
+      "from": 8,
+      "to": 153
+    },
+    {
+      "from": 6,
+      "to": 154
+    },
+    {
+      "from": 8,
+      "to": 154
+    },
+    {
+      "from": 6,
+      "to": 155
+    },
+    {
+      "from": 8,
+      "to": 155
+    },
+    {
+      "from": 6,
+      "to": 156
+    },
+    {
+      "from": 8,
+      "to": 156
+    },
+    {
+      "from": 6,
+      "to": 157
+    },
+    {
+      "from": 8,
+      "to": 157
+    },
+    {
+      "from": 6,
+      "to": 158
+    },
+    {
+      "from": 8,
+      "to": 158
+    },
+    {
+      "from": 6,
+      "to": 159
+    },
+    {
+      "from": 8,
+      "to": 159
+    },
+    {
+      "from": 6,
+      "to": 160
+    },
+    {
+      "from": 8,
+      "to": 160
+    },
+    {
+      "from": 6,
+      "to": 161
+    },
+    {
+      "from": 8,
+      "to": 161
+    },
+    {
+      "from": 6,
+      "to": 162
+    },
+    {
+      "from": 8,
+      "to": 162
+    },
+    {
+      "from": 6,
+      "to": 163
+    },
+    {
+      "from": 8,
+      "to": 163
+    },
+    {
+      "from": 162,
+      "to": 163
+    },
+    {
+      "from": 162,
+      "to": 164
+    },
+    {
+      "from": 6,
+      "to": 165
+    },
+    {
+      "from": 8,
+      "to": 165
+    },
+    {
+      "from": 10,
+      "to": 165
+    },
+    {
+      "from": 60,
+      "to": 166
+    },
+    {
+      "from": 61,
+      "to": 166
+    },
+    {
+      "from": 60,
+      "to": 167
+    },
+    {
+      "from": 10,
+      "to": 167
+    },
+    {
+      "from": 51,
+      "to": 167
+    },
+    {
+      "from": 52,
+      "to": 167
+    },
+    {
+      "from": 53,
+      "to": 167
+    },
+    {
+      "from": 30,
+      "to": 168
+    },
+    {
+      "from": 60,
+      "to": 168
+    },
+    {
+      "from": 51,
+      "to": 169
+    },
+    {
+      "from": 52,
+      "to": 169
+    },
+    {
+      "from": 60,
+      "to": 169
+    },
+    {
+      "from": 8,
+      "to": 170
+    },
+    {
+      "from": 166,
+      "to": 170
+    },
+    {
+      "from": 60,
+      "to": 171
+    },
+    {
+      "from": 61,
+      "to": 171
+    },
+    {
+      "from": 51,
+      "to": 172
+    },
+    {
+      "from": 52,
+      "to": 172
+    },
+    {
+      "from": 61,
+      "to": 172
+    },
+    {
+      "from": 65,
+      "to": 173
+    },
+    {
+      "from": 10,
+      "to": 173
+    },
+    {
+      "from": 60,
+      "to": 174
+    },
+    {
+      "from": 65,
+      "to": 174
+    },
+    {
+      "from": 60,
+      "to": 175
+    },
+    {
+      "from": 26,
+      "to": 175
+    },
+    {
+      "from": 10,
+      "to": 176
+    },
+    {
+      "from": 176,
+      "to": 177
+    },
+    {
+      "from": 176,
+      "to": 178
+    },
+    {
+      "from": 176,
+      "to": 179
+    },
+    {
+      "from": 176,
+      "to": 180
+    },
+    {
+      "from": 176,
+      "to": 181
+    },
+    {
+      "from": 176,
+      "to": 182
+    },
+    {
+      "from": 176,
+      "to": 183
+    },
+    {
+      "from": 176,
+      "to": 184
+    },
+    {
+      "from": 65,
+      "to": 184
+    },
+    {
+      "from": 176,
+      "to": 185
+    },
+    {
+      "from": 2,
+      "to": 186
+    },
+    {
+      "from": 3,
+      "to": 186
+    },
+    {
+      "from": 186,
+      "to": 187
+    },
+    {
+      "from": 3,
+      "to": 188
+    },
+    {
+      "from": 186,
+      "to": 188
+    },
+    {
+      "from": 1,
+      "to": 189
+    },
+    {
+      "from": 3,
+      "to": 189
+    },
+    {
+      "from": 3,
+      "to": 190
+    },
+    {
+      "from": 186,
+      "to": 190
+    },
+    {
+      "from": 4,
+      "to": 191
+    },
+    {
+      "from": 186,
+      "to": 191
+    },
+    {
+      "from": 4,
+      "to": 192
+    },
+    {
+      "from": 186,
+      "to": 192
+    },
+    {
+      "from": 1,
+      "to": 193
+    },
+    {
+      "from": 3,
+      "to": 193
+    },
+    {
+      "from": 3,
+      "to": 194
+    },
+    {
+      "from": 186,
+      "to": 194
+    },
+    {
+      "from": 1,
+      "to": 195
+    },
+    {
+      "from": 3,
+      "to": 195
+    },
+    {
+      "from": 4,
+      "to": 196
+    },
+    {
+      "from": 10,
+      "to": 196
+    },
+    {
+      "from": 196,
+      "to": 197
+    },
+    {
+      "from": 20,
+      "to": 198
+    },
+    {
+      "from": 60,
+      "to": 198
+    },
+    {
+      "from": 60,
+      "to": 199
+    },
+    {
+      "from": 10,
+      "to": 199
+    },
+    {
+      "from": 165,
+      "to": 199
+    },
+    {
+      "from": 10,
+      "to": 200
+    },
+    {
+      "from": 60,
+      "to": 200
+    },
+    {
+      "from": 165,
+      "to": 200
+    }
+  ]
+}
