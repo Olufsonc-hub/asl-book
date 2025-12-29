@@ -17,6 +17,8 @@ nav:
     - Concept Taxonomy: learning-graph/concept-taxonomy.md
     - Quality Metrics: learning-graph/quality-metrics.md
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+  - Visualizations:
+    - Graph Viewer: sims/graph-viewer/index.md
 theme:
   name: material
    
