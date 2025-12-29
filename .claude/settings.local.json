@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(./install-claude-skills.sh:*)",
+      "Bash(export BK_HOME=\"C:/Users/olufsonc/ws/claude-skills\")",
+      "Bash(\"C:/Users/olufsonc/ws/claude-skills/scripts/bk-install-skills\")",
+      "Bash(ln:*)",
+      "Bash(test:*)",
+      "Bash(python:*)"
     ],
     "deny": [],
     "ask": []
