@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASL Hand Viewer</title>
+    <link rel="stylesheet" href="local.css">
+</head>
+<body>
+    <div id="container">
+        <div id="canvas-container"></div>
+
+        <div id="controls">
+            <h2>ASL Hand Viewer</h2>
+
+            <div class="control-section">
+                <h3>Preset Poses</h3>
+                <div id="pose-buttons">
+                    <button class="pose-btn active" data-pose="open">Open Hand</button>
+                    <button class="pose-btn" data-pose="fist">Fist</button>
+                    <button class="pose-btn" data-pose="point">Point</button>
+                    <button class="pose-btn" data-pose="asl-a">ASL 'A'</button>
+                    <button class="pose-btn" data-pose="asl-b">ASL 'B'</button>
+                    <button class="pose-btn" data-pose="asl-c">ASL 'C'</button>
+                    <button class="pose-btn" data-pose="asl-i-love-you">I Love You</button>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Finger Controls</h3>
+
+                <div class="finger-control">
+                    <label>Thumb Curl</label>
+                    <input type="range" id="thumb-curl" min="0" max="100" value="0">
+                    <span class="value">0%</span>
+                </div>
+
+                <div class="finger-control">
+                    <label>Index Curl</label>
+                    <input type="range" id="index-curl" min="0" max="100" value="0">
+                    <span class="value">0%</span>
+                </div>
+
+                <div class="finger-control">
+                    <label>Middle Curl</label>
+                    <input type="range" id="middle-curl" min="0" max="100" value="0">
+                    <span class="value">0%</span>
+                </div>
+
+                <div class="finger-control">
+                    <label>Ring Curl</label>
+                    <input type="range" id="ring-curl" min="0" max="100" value="0">
+                    <span class="value">0%</span>
+                </div>
+
+                <div class="finger-control">
+                    <label>Pinky Curl</label>
+                    <input type="range" id="pinky-curl" min="0" max="100" value="0">
+                    <span class="value">0%</span>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>Hand Options</h3>
+                <div class="option-row">
+                    <label>
+                        <input type="checkbox" id="show-joints" checked>
+                        Show Joints
+                    </label>
+                </div>
+                <div class="option-row">
+                    <label>
+                        <input type="checkbox" id="mirror-hand">
+                        Mirror (Left Hand)
+                    </label>
+                </div>
+            </div>
+
+            <div class="control-section">
+                <h3>View Controls</h3>
+                <p class="hint">Drag to rotate, scroll to zoom</p>
+                <button id="reset-view">Reset View</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Three.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- OrbitControls -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -19,6 +19,7 @@ nav:
     - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
   - Visualizations:
     - Graph Viewer: sims/graph-viewer/index.md
+    - Hand Viewer: sims/hand-viewer/index.md
 theme:
   name: material
    
