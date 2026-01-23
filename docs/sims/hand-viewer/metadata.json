@@ -1,0 +1,42 @@
+{
+  "title": "ASL Hand Viewer",
+  "description": "An interactive 3D hand visualization tool for exploring American Sign Language hand positions using three.js.",
+  "subject": "Mathematics",
+  "topic": "ASL Hand Viewer",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "three.js",
+  "url": "https://dmccreary.github.io/asl-book/sims/hand-viewer/",
+  "identifier": "https://dmccreary.github.io/asl-book/sims/hand-viewer/",
+  "_source": {
+    "repo": "asl-book",
+    "sim": "hand-viewer",
+    "github_url": "https://github.com/dmccreary/asl-book/tree/main/docs/sims/hand-viewer",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Chemistry",
+    "Engineering"
+  ],
+  "visualizationType": [
+    "animation",
+    "simulation",
+    "graph",
+    "interactive-demo",
+    "map"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Learning Graph Viewer",
+  "description": "This interactive viewer allows you to explore the learning graph for the ASL course.",
+  "subject": "Mathematics",
+  "topic": "Learning Graph Viewer",
+  "gradeLevel": "6-12",
+  "bloomsTaxonomy": [
+    "Understand",
+    "Apply"
+  ],
+  "author": "Dan McCreary",
+  "dateCreated": "2026-01-23",
+  "dateModified": "2026-01-23",
+  "version": "1.0.0",
+  "license": "MIT",
+  "language": "en",
+  "format": "text/html",
+  "type": "Interactive Simulation",
+  "framework": "vis-network",
+  "url": "https://dmccreary.github.io/asl-book/sims/graph-viewer/",
+  "identifier": "https://dmccreary.github.io/asl-book/sims/graph-viewer/",
+  "_source": {
+    "repo": "asl-book",
+    "sim": "graph-viewer",
+    "github_url": "https://github.com/dmccreary/asl-book/tree/main/docs/sims/graph-viewer",
+    "auto_generated": true,
+    "generation_date": "2026-01-23"
+  },
+  "subjects": [
+    "Mathematics",
+    "Physics",
+    "Computer Science",
+    "Chemistry",
+    "Statistics",
+    "Engineering"
+  ],
+  "visualizationType": [
+    "animation",
+    "simulation",
+    "chart",
+    "graph",
+    "interactive-demo",
+    "network",
+    "map"
+  ]
+}
