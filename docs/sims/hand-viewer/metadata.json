@@ -38,5 +38,11 @@
     "graph",
     "interactive-demo",
     "map"
+  ],
+  "learningObjectives": [
+    "Understand the mathematical concept of asl hand viewer",
+    "Apply asl hand viewer to solve problems",
+    "Visualize and interpret asl hand viewer relationships",
+    "Experiment with parameters to observe their effects on asl hand viewer"
   ]
 }
