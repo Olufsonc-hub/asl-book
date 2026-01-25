@@ -44,5 +44,28 @@
     "Apply asl hand viewer to solve problems",
     "Visualize and interpret asl hand viewer relationships",
     "Experiment with parameters to observe their effects on asl hand viewer"
-  ]
+  ],
+  "pedagogical": {
+    "pattern": "demonstration",
+    "bloomAlignment": [
+      "understand",
+      "apply"
+    ],
+    "bloomVerbs": [
+      "classify",
+      "apply",
+      "illustrate",
+      "solve",
+      "use"
+    ],
+    "pacing": "self-paced",
+    "supportsPrediction": false,
+    "dataVisibility": "medium",
+    "feedbackType": [
+      "immediate",
+      "corrective",
+      "explanatory"
+    ],
+    "interactionStyle": "manipulate"
+  }
 }
